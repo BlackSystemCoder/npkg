@@ -1,0 +1,7 @@
+(
+  build ld
+    (list
+      (build cc "main.c" "npkg.o" "-Wall -Wextra -Wpedantic")
+    )
+  "npkg"
+)
